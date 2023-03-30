@@ -3,10 +3,10 @@ package auth
 import (
 	"context"
 
-	"github.com/goravel/framework/auth/access"
-	"github.com/goravel/framework/auth/console"
-	contractconsole "github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/facades"
+	"github.com/chenyusolar/framework/auth/access"
+	"github.com/chenyusolar/framework/auth/console"
+	contractconsole "github.com/chenyusolar/framework/contracts/console"
+	"github.com/chenyusolar/framework/facades"
 )
 
 type ServiceProvider struct {

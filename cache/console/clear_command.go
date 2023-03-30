@@ -3,9 +3,9 @@ package console
 import (
 	"github.com/gookit/color"
 
-	"github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/console/command"
-	"github.com/goravel/framework/facades"
+	"github.com/chenyusolar/framework/contracts/console"
+	"github.com/chenyusolar/framework/contracts/console/command"
+	"github.com/chenyusolar/framework/facades"
 )
 
 type ClearCommand struct {

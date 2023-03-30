@@ -3,7 +3,7 @@ package support
 import (
 	"strings"
 
-	"github.com/goravel/framework/contracts/schedule"
+	"github.com/chenyusolar/framework/contracts/schedule"
 )
 
 type Event struct {

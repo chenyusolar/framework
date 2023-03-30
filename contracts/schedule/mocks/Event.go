@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	schedule "github.com/goravel/framework/contracts/schedule"
+	schedule "github.com/chenyusolar/framework/contracts/schedule"
 	mock "github.com/stretchr/testify/mock"
 )
 

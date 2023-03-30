@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/goravel/framework/contracts/schedule"
-	supporttime "github.com/goravel/framework/support/time"
-	"github.com/goravel/framework/testing/mock"
+	"github.com/chenyusolar/framework/contracts/schedule"
+	supporttime "github.com/chenyusolar/framework/support/time"
+	"github.com/chenyusolar/framework/testing/mock"
 )
 
 func TestApplication(t *testing.T) {

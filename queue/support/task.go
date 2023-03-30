@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/goravel/framework/contracts/queue"
+	"github.com/chenyusolar/framework/contracts/queue"
 
 	"github.com/RichardKnop/machinery/v2"
 	"github.com/RichardKnop/machinery/v2/tasks"

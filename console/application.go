@@ -7,9 +7,9 @@ import (
 	"github.com/gookit/color"
 	"github.com/urfave/cli/v2"
 
-	"github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/console/command"
-	"github.com/goravel/framework/support"
+	"github.com/chenyusolar/framework/contracts/console"
+	"github.com/chenyusolar/framework/contracts/console/command"
+	"github.com/chenyusolar/framework/support"
 )
 
 type Application struct {

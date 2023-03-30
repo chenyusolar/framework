@@ -7,10 +7,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gookit/color"
 
-	httpcontract "github.com/goravel/framework/contracts/http"
-	"github.com/goravel/framework/contracts/route"
-	"github.com/goravel/framework/facades"
-	goravelhttp "github.com/goravel/framework/http"
+	httpcontract "github.com/chenyusolar/framework/contracts/http"
+	"github.com/chenyusolar/framework/contracts/route"
+	"github.com/chenyusolar/framework/facades"
+	goravelhttp "github.com/chenyusolar/framework/http"
 )
 
 type Gin struct {

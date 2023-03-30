@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/hash"
+	"github.com/chenyusolar/framework/contracts/hash"
 )
 
 var Hash hash.Hash

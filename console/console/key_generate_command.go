@@ -7,10 +7,10 @@ import (
 	"github.com/gookit/color"
 	"github.com/manifoldco/promptui"
 
-	"github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/console/command"
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/support/str"
+	"github.com/chenyusolar/framework/contracts/console"
+	"github.com/chenyusolar/framework/contracts/console/command"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/support/str"
 )
 
 type KeyGenerateCommand struct {

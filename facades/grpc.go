@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/grpc"
+	"github.com/chenyusolar/framework/contracts/grpc"
 )
 
 var Grpc grpc.Grpc

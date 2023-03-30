@@ -3,8 +3,8 @@ package config
 import (
 	"flag"
 
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/support"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/support"
 )
 
 type ServiceProvider struct {

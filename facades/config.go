@@ -1,5 +1,5 @@
 package facades
 
-import "github.com/goravel/framework/contracts/config"
+import "github.com/chenyusolar/framework/contracts/config"
 
 var Config config.Config

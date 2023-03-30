@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/goravel/framework/contracts/cache"
-	"github.com/goravel/framework/facades"
+	"github.com/chenyusolar/framework/contracts/cache"
+	"github.com/chenyusolar/framework/facades"
 
 	"github.com/go-redis/redis/v8"
 	"github.com/pkg/errors"

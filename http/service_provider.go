@@ -1,9 +1,9 @@
 package http
 
 import (
-	consolecontract "github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/http/console"
+	consolecontract "github.com/chenyusolar/framework/contracts/console"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/http/console"
 )
 
 type ServiceProvider struct {

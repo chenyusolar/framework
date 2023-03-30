@@ -3,9 +3,9 @@ package middleware
 import (
 	nethttp "net/http"
 
-	contractshttp "github.com/goravel/framework/contracts/http"
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/http"
+	contractshttp "github.com/chenyusolar/framework/contracts/http"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/http"
 
 	"github.com/gin-gonic/gin"
 	"github.com/rs/cors"

@@ -7,15 +7,15 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	frameworkcache "github.com/goravel/framework/cache"
-	mockconfig "github.com/goravel/framework/contracts/config/mocks"
-	httpcontract "github.com/goravel/framework/contracts/http"
-	"github.com/goravel/framework/contracts/route"
-	"github.com/goravel/framework/facades"
-	frameworkhttp "github.com/goravel/framework/http"
-	"github.com/goravel/framework/http/limit"
-	"github.com/goravel/framework/http/middleware"
-	"github.com/goravel/framework/testing/mock"
+	frameworkcache "github.com/chenyusolar/framework/cache"
+	mockconfig "github.com/chenyusolar/framework/contracts/config/mocks"
+	httpcontract "github.com/chenyusolar/framework/contracts/http"
+	"github.com/chenyusolar/framework/contracts/route"
+	"github.com/chenyusolar/framework/facades"
+	frameworkhttp "github.com/chenyusolar/framework/http"
+	"github.com/chenyusolar/framework/http/limit"
+	"github.com/chenyusolar/framework/http/middleware"
+	"github.com/chenyusolar/framework/testing/mock"
 )
 
 func TestGinGroup(t *testing.T) {

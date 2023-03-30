@@ -1,4 +1,4 @@
-module github.com/goravel/framework
+module github.com/chenyusolar/framework
 
 go 1.18
 

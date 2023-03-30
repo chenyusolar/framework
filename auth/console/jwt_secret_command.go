@@ -5,10 +5,10 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/contracts/console/command"
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/support/str"
+	"github.com/chenyusolar/framework/contracts/console"
+	"github.com/chenyusolar/framework/contracts/console/command"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/support/str"
 
 	"github.com/gookit/color"
 )

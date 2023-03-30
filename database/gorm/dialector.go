@@ -9,9 +9,9 @@ import (
 	"gorm.io/driver/sqlserver"
 	"gorm.io/gorm"
 
-	contractsdatabase "github.com/goravel/framework/contracts/database"
-	"github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/facades"
+	contractsdatabase "github.com/chenyusolar/framework/contracts/database"
+	"github.com/chenyusolar/framework/contracts/database/orm"
+	"github.com/chenyusolar/framework/facades"
 )
 
 func dialectors(connection string, configs []contractsdatabase.Config) ([]gorm.Dialector, error) {

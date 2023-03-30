@@ -1,7 +1,7 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/http"
+	"github.com/chenyusolar/framework/contracts/http"
 )
 
 var RateLimiter http.RateLimiter

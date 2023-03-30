@@ -11,15 +11,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/goravel/framework/config"
-	"github.com/goravel/framework/contracts/event"
-	"github.com/goravel/framework/contracts/mail"
-	queuecontract "github.com/goravel/framework/contracts/queue"
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/queue"
-	"github.com/goravel/framework/support/file"
-	testingdocker "github.com/goravel/framework/testing/docker"
-	"github.com/goravel/framework/testing/mock"
+	"github.com/chenyusolar/framework/config"
+	"github.com/chenyusolar/framework/contracts/event"
+	"github.com/chenyusolar/framework/contracts/mail"
+	queuecontract "github.com/chenyusolar/framework/contracts/queue"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/queue"
+	"github.com/chenyusolar/framework/support/file"
+	testingdocker "github.com/chenyusolar/framework/testing/docker"
+	"github.com/chenyusolar/framework/testing/mock"
 )
 
 type ApplicationTestSuite struct {

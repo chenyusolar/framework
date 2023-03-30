@@ -3,8 +3,8 @@ package gorm
 import (
 	"fmt"
 
-	contractsdatabase "github.com/goravel/framework/contracts/database"
-	"github.com/goravel/framework/facades"
+	contractsdatabase "github.com/chenyusolar/framework/contracts/database"
+	"github.com/chenyusolar/framework/facades"
 )
 
 func MysqlDsn(connection string, config contractsdatabase.Config) string {

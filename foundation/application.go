@@ -4,10 +4,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/goravel/framework/config"
-	"github.com/goravel/framework/contracts"
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/support"
+	"github.com/chenyusolar/framework/config"
+	"github.com/chenyusolar/framework/contracts"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/support"
 )
 
 func init() {

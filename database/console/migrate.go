@@ -10,9 +10,9 @@ import (
 	"github.com/golang-migrate/migrate/v4/database/sqlite3"
 	"github.com/golang-migrate/migrate/v4/database/sqlserver"
 
-	"github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/database/gorm"
-	"github.com/goravel/framework/facades"
+	"github.com/chenyusolar/framework/contracts/database/orm"
+	"github.com/chenyusolar/framework/database/gorm"
+	"github.com/chenyusolar/framework/facades"
 )
 
 func getMigrate() (*migrate.Migrate, error) {

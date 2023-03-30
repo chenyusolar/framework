@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/goravel/framework/contracts/event"
+	"github.com/chenyusolar/framework/contracts/event"
 )
 
 type TestEvent struct {

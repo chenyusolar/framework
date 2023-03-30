@@ -10,12 +10,12 @@ import (
 	"github.com/stretchr/testify/suite"
 	"gorm.io/gorm/clause"
 
-	contractsauth "github.com/goravel/framework/contracts/auth"
-	"github.com/goravel/framework/database/orm"
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/http"
-	supporttime "github.com/goravel/framework/support/time"
-	"github.com/goravel/framework/testing/mock"
+	contractsauth "github.com/chenyusolar/framework/contracts/auth"
+	"github.com/chenyusolar/framework/database/orm"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/http"
+	supporttime "github.com/chenyusolar/framework/support/time"
+	"github.com/chenyusolar/framework/testing/mock"
 )
 
 var guard = "user"

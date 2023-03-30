@@ -8,10 +8,10 @@ import (
 
 	"github.com/spf13/cast"
 
-	contractshttp "github.com/goravel/framework/contracts/http"
-	"github.com/goravel/framework/facades"
-	httplimit "github.com/goravel/framework/http/limit"
-	supporttime "github.com/goravel/framework/support/time"
+	contractshttp "github.com/chenyusolar/framework/contracts/http"
+	"github.com/chenyusolar/framework/facades"
+	httplimit "github.com/chenyusolar/framework/http/limit"
+	supporttime "github.com/chenyusolar/framework/support/time"
 )
 
 func Throttle(name string) contractshttp.Middleware {

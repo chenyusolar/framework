@@ -1,9 +1,9 @@
 package validation
 
 import (
-	consolecontract "github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/validation/console"
+	consolecontract "github.com/chenyusolar/framework/contracts/console"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/validation/console"
 )
 
 type ServiceProvider struct {

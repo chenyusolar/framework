@@ -1,9 +1,9 @@
 package queue
 
 import (
-	"github.com/goravel/framework/contracts/console"
-	"github.com/goravel/framework/facades"
-	queueConsole "github.com/goravel/framework/queue/console"
+	"github.com/chenyusolar/framework/contracts/console"
+	"github.com/chenyusolar/framework/facades"
+	queueConsole "github.com/chenyusolar/framework/queue/console"
 )
 
 type ServiceProvider struct {

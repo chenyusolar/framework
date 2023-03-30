@@ -6,8 +6,8 @@ import (
 	"github.com/gookit/color"
 	"github.com/sirupsen/logrus"
 
-	"github.com/goravel/framework/contracts/log"
-	"github.com/goravel/framework/facades"
+	"github.com/chenyusolar/framework/contracts/log"
+	"github.com/chenyusolar/framework/facades"
 )
 
 type Logrus struct {

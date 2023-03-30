@@ -15,12 +15,12 @@ import (
 	"gorm.io/gorm/schema"
 	"gorm.io/plugin/dbresolver"
 
-	contractsdatabase "github.com/goravel/framework/contracts/database"
-	contractsorm "github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/database/orm"
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/support/database"
-	supporttime "github.com/goravel/framework/support/time"
+	contractsdatabase "github.com/chenyusolar/framework/contracts/database"
+	contractsorm "github.com/chenyusolar/framework/contracts/database/orm"
+	"github.com/chenyusolar/framework/database/orm"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/support/database"
+	supporttime "github.com/chenyusolar/framework/support/time"
 )
 
 func New(connection string) (*gorm.DB, error) {

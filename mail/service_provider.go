@@ -1,8 +1,8 @@
 package mail
 
 import (
-	"github.com/goravel/framework/contracts/queue"
-	"github.com/goravel/framework/facades"
+	"github.com/chenyusolar/framework/contracts/queue"
+	"github.com/chenyusolar/framework/facades"
 )
 
 type ServiceProvider struct {

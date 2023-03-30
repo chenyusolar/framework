@@ -1,8 +1,8 @@
 package facades
 
 import (
-	"github.com/goravel/framework/contracts/auth"
-	"github.com/goravel/framework/contracts/auth/access"
+	"github.com/chenyusolar/framework/contracts/auth"
+	"github.com/chenyusolar/framework/contracts/auth/access"
 )
 
 var (

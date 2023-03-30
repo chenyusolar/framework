@@ -8,10 +8,10 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	contractsorm "github.com/goravel/framework/contracts/database/orm"
-	"github.com/goravel/framework/database/gorm"
-	"github.com/goravel/framework/database/orm"
-	"github.com/goravel/framework/support/file"
+	contractsorm "github.com/chenyusolar/framework/contracts/database/orm"
+	"github.com/chenyusolar/framework/database/gorm"
+	"github.com/chenyusolar/framework/database/orm"
+	"github.com/chenyusolar/framework/support/file"
 )
 
 var connections = []contractsorm.Driver{

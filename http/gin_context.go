@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/goravel/framework/contracts/http"
+	"github.com/chenyusolar/framework/contracts/http"
 )
 
 func Background() http.Context {

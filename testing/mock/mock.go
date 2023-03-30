@@ -1,20 +1,20 @@
 package mock
 
 import (
-	mocksaccess "github.com/goravel/framework/contracts/auth/access/mocks"
-	mocksauth "github.com/goravel/framework/contracts/auth/mocks"
-	mockscache "github.com/goravel/framework/contracts/cache/mocks"
-	mocksconfig "github.com/goravel/framework/contracts/config/mocks"
-	mocksconsole "github.com/goravel/framework/contracts/console/mocks"
-	mocksorm "github.com/goravel/framework/contracts/database/orm/mocks"
-	mocksevent "github.com/goravel/framework/contracts/event/mocks"
-	mocksfilesystem "github.com/goravel/framework/contracts/filesystem/mocks"
-	mocksgrpc "github.com/goravel/framework/contracts/grpc/mocks"
-	mocksmail "github.com/goravel/framework/contracts/mail/mocks"
-	mocksqueue "github.com/goravel/framework/contracts/queue/mocks"
-	mocksvalidate "github.com/goravel/framework/contracts/validation/mocks"
-	"github.com/goravel/framework/facades"
-	"github.com/goravel/framework/log"
+	mocksaccess "github.com/chenyusolar/framework/contracts/auth/access/mocks"
+	mocksauth "github.com/chenyusolar/framework/contracts/auth/mocks"
+	mockscache "github.com/chenyusolar/framework/contracts/cache/mocks"
+	mocksconfig "github.com/chenyusolar/framework/contracts/config/mocks"
+	mocksconsole "github.com/chenyusolar/framework/contracts/console/mocks"
+	mocksorm "github.com/chenyusolar/framework/contracts/database/orm/mocks"
+	mocksevent "github.com/chenyusolar/framework/contracts/event/mocks"
+	mocksfilesystem "github.com/chenyusolar/framework/contracts/filesystem/mocks"
+	mocksgrpc "github.com/chenyusolar/framework/contracts/grpc/mocks"
+	mocksmail "github.com/chenyusolar/framework/contracts/mail/mocks"
+	mocksqueue "github.com/chenyusolar/framework/contracts/queue/mocks"
+	mocksvalidate "github.com/chenyusolar/framework/contracts/validation/mocks"
+	"github.com/chenyusolar/framework/facades"
+	"github.com/chenyusolar/framework/log"
 )
 
 func Cache() *mockscache.Store {

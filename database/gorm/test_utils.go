@@ -6,11 +6,11 @@ import (
 	"github.com/ory/dockertest/v3"
 	"github.com/spf13/cast"
 
-	configmocks "github.com/goravel/framework/contracts/config/mocks"
-	"github.com/goravel/framework/contracts/database"
-	"github.com/goravel/framework/contracts/database/orm"
-	testingdocker "github.com/goravel/framework/testing/docker"
-	"github.com/goravel/framework/testing/mock"
+	configmocks "github.com/chenyusolar/framework/contracts/config/mocks"
+	"github.com/chenyusolar/framework/contracts/database"
+	"github.com/chenyusolar/framework/contracts/database/orm"
+	testingdocker "github.com/chenyusolar/framework/testing/docker"
+	"github.com/chenyusolar/framework/testing/mock"
 )
 
 const (

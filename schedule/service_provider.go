@@ -1,7 +1,7 @@
 package schedule
 
 import (
-	"github.com/goravel/framework/facades"
+	"github.com/chenyusolar/framework/facades"
 )
 
 type ServiceProvider struct {

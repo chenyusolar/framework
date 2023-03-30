@@ -12,8 +12,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	configmocks "github.com/goravel/framework/contracts/config/mocks"
-	"github.com/goravel/framework/testing/mock"
+	configmocks "github.com/chenyusolar/framework/contracts/config/mocks"
+	"github.com/chenyusolar/framework/testing/mock"
 )
 
 type contextKey int
